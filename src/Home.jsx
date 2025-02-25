@@ -1,17 +1,15 @@
-// src/components/Home.jsx
-
 import React from "react";
+import booksData from "./booksData";
 import BookCard from "./components/BookCard";
-import books from "./booksData";
-import "./Home.css"; // Import the CSS for styling
+import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home-container">
-      <h1>Book Library</h1>
-      <div className="books-grid">
-        {books.map((book) => (
-          <BookCard key={book.id} book={book} />
+      <h1 className="home-title">📚 Book Library</h1>
+      <div className="book-list">
+        {booksData.map((book, index) => (
+          <BookCard key={index} book={book} />
         ))}
       </div>
     </div>

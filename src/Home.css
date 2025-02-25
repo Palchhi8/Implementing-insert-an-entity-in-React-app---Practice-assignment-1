@@ -1,21 +1,35 @@
-/* src/components/Home.css */
-
+/* src/Home.css */
 .home-container {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
   text-align: center;
+  padding: 20px;
+  max-width: 800px;
 }
 
-.books-grid {
+.home-title {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-book-btn {
+  background: linear-gradient(135deg, #ff5f6d, #ffc371);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.add-book-btn:hover {
+  transform: scale(1.05);
+}
+
+.book-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
+  justify-content: center;
   margin-top: 20px;
-}
-
-h1 {
-  font-size: 2.5em;
-  color: #333;
 }
