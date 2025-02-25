@@ -1,0 +1,67 @@
+
+.add-book-container {
+    text-align: center;
+    padding: 50px;
+    background: url('https://source.unsplash.com/1600x900/?bookstore,cozy') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    font-size: 2.5rem;
+    color: #4A403A;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.add-book-form {
+    background: rgba(255, 250, 240, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.add-book-form input,
+.add-book-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #A67B5B;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submit-btn {
+    background: linear-gradient(45deg, #D7A86E, #FFC085);
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(45deg, #C88B64, #E2A478);
+    transform: scale(1.05);
+}
+
+.back-btn {
+    margin-top: 20px;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: #6D4C41;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
